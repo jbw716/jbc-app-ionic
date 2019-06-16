@@ -1,0 +1,7 @@
+{
+  "appId": "org.jbcpc.members",
+  "appName": "JBC",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

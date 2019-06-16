@@ -1,0 +1,7 @@
+{
+  "name": "JBC",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
