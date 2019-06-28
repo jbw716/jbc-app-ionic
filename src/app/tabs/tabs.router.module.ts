@@ -17,11 +17,11 @@ const routes: Routes = [
         ]
       },
       {
-        path: "info",
+        path: "media",
         children: [
           {
             path: "",
-            loadChildren: "../pages/info/info.module#InfoPageModule"
+            loadChildren: "../pages/media/media.module#MediaPageModule"
           }
         ]
       },

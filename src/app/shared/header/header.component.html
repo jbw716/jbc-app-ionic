@@ -1,7 +1,10 @@
 <ion-header>
   <ion-toolbar>
+    <ion-buttons *ngIf="back" slot="start">
+      <ion-back-button defaultHref></ion-back-button>
+    </ion-buttons>
     <ion-title>{{ pageName }}</ion-title>
-    <ion-buttons slot="secondary" mode="md">
+    <ion-buttons *ngIf="!back" slot="secondary" mode="md">
       <ion-button routerLink="/info" routerDirection="forward">
         <ion-icon slot="icon-only" name="information-circle-outline"></ion-icon>
       </ion-button>
